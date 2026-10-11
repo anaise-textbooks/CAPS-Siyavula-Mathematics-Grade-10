@@ -56,10 +56,26 @@ def fetch_interactive_embed(opener, section_url, exercise_id, retries=2):
             if attempt == retries - 1:
                 return None
             time.sleep(1.0)
-def fetch_solution_and_answer(opener, section_url, exercise_id, template_id=1):
+def fetch_solution_and_answer(opener, section_url, exercise_id, template_id=1, q_body_html=''):
     # Probe submit-answer to reveal the verified answer and step-by-step solution
     submit_url = 'https://www.siyavula.com/api/interactive-textbook/v1/submit-answer'
     path = '/' + '/'.join(section_url.split('/')[3:])
+    
+    # Dynamically extract all input/select names from the question HTML so the probe succeeds
+    user_responses = {}
+    if q_body_html:
+        try:
+            q_soup = BeautifulSoup(q_body_html, 'html.parser')
+            for el in q_soup.find_all(['input', 'select']):
+                name = el.get('name')
+                el_type = el.get('type', '')
+                if name and el_type not in ['submit', 'button', 'reset', 'checkbox']:
+                    user_responses[name] = '1'
+        except Exception:
+            pass
+    if not user_responses:
+        user_responses = {'question1a': '1'}
+
     payload = json.dumps({
         'current_path': path,
         'section_exercise_id': exercise_id,
@@ -69,7 +85,7 @@ def fetch_solution_and_answer(opener, section_url, exercise_id, template_id=1):
         'duration': 5,
         'response_hash': None,
         'repeat_attempt': False,
-        'user_responses': {'question1a': 'probe_val'}
+        'user_responses': user_responses
     }).encode('utf-8')
 
     headers = {
@@ -84,9 +100,15 @@ def fetch_solution_and_answer(opener, section_url, exercise_id, template_id=1):
         with opener.open(req, timeout=15) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             template = data.get('data', {}).get('activity_template', {})
-            resp_info = template.get('responses', {}).get('1', {})
-            correct_ans_list = resp_info.get('correct_responses', [])
-            correct_ans = correct_ans_list[0] if correct_ans_list else ''
+            
+            # Extract correct answers across all response groups
+            correct_ans_list = []
+            for resp_key, resp_val in template.get('responses', {}).items():
+                c_resps = resp_val.get('correct_responses', [])
+                if c_resps:
+                    correct_ans_list.extend(c_resps)
+            
+            correct_ans = ", ".join(correct_ans_list) if correct_ans_list else ''
 
             body_html = template.get('question', {}).get('body', '')
             sol_text = ''
@@ -179,7 +201,7 @@ class MDXConverter:
 
                             # fetch verified answer & full solution
                             tmpl_id = tmpl.get('id', 1)
-                            ans_str, sol_str = fetch_solution_and_answer(self.opener, self.base_url, ex_id, tmpl_id)
+                            ans_str, sol_str = fetch_solution_and_answer(self.opener, self.base_url, ex_id, tmpl_id, body_html)
 
                             # If answer is an index into options (e.g. '1' for multiple choice), map it to option text
                             if options and ans_str.isdigit():

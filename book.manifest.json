@@ -44,7 +44,7 @@
           "id": "sec-01-05-01-algebraic-expressions-04",
           "title": "1.5 Estimating surds",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-04.mdx",
-          "estimatedMinutes": 7
+          "estimatedMinutes": 8
         },
         {
           "id": "sec-01-06-01-algebraic-expressions-05",
@@ -134,13 +134,13 @@
           "id": "sec-03-02-03-number-patterns-01",
           "title": "3.2 Describing sequences",
           "path": "chapters/03-number-patterns/03-number-patterns-01.mdx",
-          "estimatedMinutes": 54
+          "estimatedMinutes": 60
         },
         {
           "id": "sec-03-03-03-number-patterns-02",
           "title": "3.3 Chapter summary",
           "path": "chapters/03-number-patterns/03-number-patterns-02.mdx",
-          "estimatedMinutes": 5
+          "estimatedMinutes": 9
         },
         {
           "id": "sec-03-04-03-number-patterns-03",
@@ -170,19 +170,19 @@
           "id": "sec-04-03-04-equations-and-inequalities-02",
           "title": "4.3 Solving quadratic equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-02.mdx",
-          "estimatedMinutes": 24
+          "estimatedMinutes": 33
         },
         {
           "id": "sec-04-04-04-equations-and-inequalities-03",
           "title": "4.4 Solving simultaneous equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-03.mdx",
-          "estimatedMinutes": 30
+          "estimatedMinutes": 52
         },
         {
           "id": "sec-04-05-04-equations-and-inequalities-04",
           "title": "4.5 Word problems",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-04.mdx",
-          "estimatedMinutes": 28
+          "estimatedMinutes": 51
         },
         {
           "id": "sec-04-06-04-equations-and-inequalities-05",
@@ -194,7 +194,7 @@
           "id": "sec-04-07-04-equations-and-inequalities-06",
           "title": "4.7 Solving linear inequalities",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-06.mdx",
-          "estimatedMinutes": 22
+          "estimatedMinutes": 23
         },
         {
           "id": "sec-04-08-04-equations-and-inequalities-07",
@@ -224,7 +224,7 @@
           "id": "sec-05-02-05-trigonometry-part-1-01",
           "title": "5.2 Similarity of triangles",
           "path": "chapters/05-trigonometry-part-1/05-trigonometry-part-1-01.mdx",
-          "estimatedMinutes": 5
+          "estimatedMinutes": 8
         },
         {
           "id": "sec-05-03-05-trigonometry-part-1-02",
@@ -266,7 +266,7 @@
           "id": "sec-05-09-05-trigonometry-part-1-08",
           "title": "5.9 Chapter summary",
           "path": "chapters/05-trigonometry-part-1/05-trigonometry-part-1-08.mdx",
-          "estimatedMinutes": 5
+          "estimatedMinutes": 8
         },
         {
           "id": "sec-05-10-05-trigonometry-part-1-09",
@@ -314,7 +314,7 @@
           "id": "sec-06-06-06-functions-05",
           "title": "6.6 Trigonometric functions",
           "path": "chapters/06-functions/06-functions-05.mdx",
-          "estimatedMinutes": 40
+          "estimatedMinutes": 43
         },
         {
           "id": "sec-06-07-06-functions-06",
@@ -326,7 +326,7 @@
           "id": "sec-06-08-06-functions-07",
           "title": "6.8 Chapter summary",
           "path": "chapters/06-functions/06-functions-07.mdx",
-          "estimatedMinutes": 12
+          "estimatedMinutes": 25
         },
         {
           "id": "sec-06-09-06-functions-08",
@@ -350,7 +350,7 @@
           "id": "sec-07-02-07-euclidean-geometry-part-1-01",
           "title": "7.2 Triangles",
           "path": "chapters/07-euclidean-geometry-part-1/07-euclidean-geometry-part-1-01.mdx",
-          "estimatedMinutes": 22
+          "estimatedMinutes": 25
         },
         {
           "id": "sec-07-03-07-euclidean-geometry-part-1-02",
@@ -404,13 +404,13 @@
           "id": "sec-08-04-08-analytical-geometry-03",
           "title": "8.4 Mid-point of a line",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-03.mdx",
-          "estimatedMinutes": 13
+          "estimatedMinutes": 16
         },
         {
           "id": "sec-08-05-08-analytical-geometry-04",
           "title": "8.5 Chapter summary",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-04.mdx",
-          "estimatedMinutes": 24
+          "estimatedMinutes": 30
         },
         {
           "id": "sec-08-06-08-analytical-geometry-05",
@@ -482,7 +482,7 @@
           "id": "sec-10-02-10-statistics-01",
           "title": "10.2 Measures of central tendency",
           "path": "chapters/10-statistics/10-statistics-01.mdx",
-          "estimatedMinutes": 33
+          "estimatedMinutes": 36
         },
         {
           "id": "sec-10-03-10-statistics-02",
@@ -572,7 +572,7 @@
           "id": "sec-13-01-13-measurement-00",
           "title": "13.1 Area of a polygon",
           "path": "chapters/13-measurement/13-measurement-00.mdx",
-          "estimatedMinutes": 10
+          "estimatedMinutes": 14
         },
         {
           "id": "sec-13-02-13-measurement-01",
@@ -584,7 +584,7 @@
           "id": "sec-13-03-13-measurement-02",
           "title": "13.3 Right pyramids, right cones and spheres",
           "path": "chapters/13-measurement/13-measurement-02.mdx",
-          "estimatedMinutes": 41
+          "estimatedMinutes": 43
         },
         {
           "id": "sec-13-04-13-measurement-03",
