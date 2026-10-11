@@ -1,0 +1,671 @@
+## 10.2 Measures of central tendency (EMA6Y)
+
+### Mean (EMA6Z)
+
+<Callout type="info" title="Definition: Mean">
+The mean is the sum of a set of values, divided by the number of values in the set. The notation for the
+            mean of a set of values is a horizontal bar over the variable used to represent the set, for example
+            \(\bar{x}\). The formula for the mean of a data set \(\left\{{x}_{1}; {x}_{2};...;{x}_{n}\right\}\) is:
+
+          \begin{align*}
+          \overline{x}& = \frac{1}{n}\sum _{i=1}^{n}{x}_{i}\hfill \\
+          & = \frac{{x}_{1} + {x}_{2} + \ldots + {x}_{n}}{n}
+          \end{align*}
+</Callout>
+
+The mean is sometimes also called the average or the arithmetic mean.
+
+<Callout type="tip" title="Worked example 3: Calculating the mean">
+**Question:**
+What is the mean of the data set \(\left\{10; 20; 30; 40; 50\right\}\)?
+
+**Calculate the sum of the data:**
+\[10 + 20 + 30 + 40 + 50 = 150\]
+
+**Divide by the number of values in the data set to get the mean:**
+Since there are \(\text{5}\) values in the data set, the mean is:
+
+          \[\text{mean} = \frac{150}{5} = 30\]
+</Callout>
+
+### Median (EMA72)
+
+<Callout type="info" title="Definition: Median">
+The median of a data set is the value in the central position, when the data set has been arranged from the
+            lowest to the highest value.
+</Callout>
+
+Note that exactly half of the values from the data set are less than the median and the other half are greater
+        than the median.
+
+To calculate the median of a quantitative data set, first sort the data from the smallest to the largest value
+        and then find the value in the middle. If there is an odd number of values in the data set, the median will be
+        equal to one of the values in the data set. If there is an even number of values in the data set, the median
+        will lie halfway between two values in the data set.
+
+<Callout type="tip" title="Worked example 4: Median for an odd number of values">
+**Question:**
+What is the median of \(\left\{10; 14; 86; 2; 68; 99; 1\right\}\)?
+
+**Sort the values:**
+The values in the data set, arranged from the smallest to the largest, are
+
+          \[1; 2; 10; 14; 68; 86; 99\]
+
+**Find the number in the middle:**
+There are \(\text{7}\) values in the data set. Since there are an odd number of values, the median will be
+            equal to the value in the middle, namely, in the fourth position. Therefore the median of the data set is
+            \(\text{14}\).
+</Callout>
+
+<Callout type="tip" title="Worked example 5: Median for an even number of values">
+**Question:**
+What is the median of \(\left\{11; 10; 14; 86; 2; 68; 99; 1\right\}\)?
+
+**Sort the values:**
+The values in the data set, arranged from the smallest to the largest, are
+
+          \[1; 2; 10; 11; 14; 68; 86; 99\]
+
+**Find the number in the middle:**
+There are \(8\) values in the data set. Since there are an even number of values, the median will be
+            halfway between the two values in the middle, namely, between the fourth and fifth positions. The value in
+            the fourth position is \(\text{11}\) and the value in the fifth position is \(\text{14}\). The median lies
+            halfway between these two values and is therefore
+
+          \[\text{median} = \frac{11 + 14}{2} = \text{12,5}\]
+</Callout>
+
+### Mode (EMA73)
+
+<Callout type="info" title="Definition: Mode">
+The mode of a data set is the value that occurs most often in the set. The mode can also be described as
+            the most frequent or most common value in the data set.
+</Callout>
+
+To calculate the mode, we simply count the number of times that each value appears in the data set and then
+        find the value that appears most often.
+
+A data set can have more than one mode if there is more than one value with the highest count. For example,
+        both \(\text{2}\) and \(\text{3}\) are modes in the data set \(\left\{1; 2; 2; 3; 3\right\}\). If all points in
+        a data set occur with equal frequency, it is equally accurate to describe the data set as having many modes or
+        no mode.
+
+<Callout type="tip" title="Multimedia & Video">
+The following video explains how to calculate the mean, median and mode of a data set.
+
+<VideoPlayer src="https://www.youtube.com/embed/uhxtUt_-GyM" title="Video: 2GM5" />
+</Callout>
+
+<Callout type="tip" title="Worked example 6: Finding the mode">
+**Question:**
+Find the mode of the data set \(\left\{2; 2; 3; 4; 4; 4; 6; 6; 7; 8; 8; 10; 10\right\}\).
+
+**Count the number of times that each value appears in the data set:**
+| Value | Count |
+| --- | --- |
+| \(\text{2}\) | \(\text{2}\) |
+| \(\text{3}\) | \(\text{1}\) |
+| \(\text{4}\) | \(\text{3}\) |
+| \(\text{6}\) | \(\text{2}\) |
+| \(\text{7}\) | \(\text{1}\) |
+| \(\text{8}\) | \(\text{2}\) |
+| \(\text{10}\) | \(\text{2}\) |
+
+**Find the value that appears most often:**
+From the table above we can see that \(\text{4}\) is the only value that appears \(\text{3}\) times. All
+            the other values appear less than 3 times. Therefore the mode of the data set is \(\text{4}\).
+</Callout>
+
+One problem with using the mode as a measure of central tendency is that we can usually not compute the mode of
+        a continuous data set. Since continuous values can lie anywhere on the real line, any particular value will
+        almost never repeat. This means that the frequency of each value in the data set will be \(\text{1}\) and that
+        there will be no mode. We will look at one way of addressing this problem in the section on grouping data.
+
+<Callout type="tip" title="Worked example 7: Comparison of measures of central tendency">
+**Question:**
+There are regulations in South Africa related to bread production to protect consumers. By law, if a loaf
+            of bread is not labelled, it must weigh \(\text{800}\) \(\text{g}\), with the leeway of \(\text{5}\) percent
+            under or \(\text{10}\) percent over. Vishnu is interested in how a well-known, national retailer measures up
+            to this standard. He visited his local branch of the supplier and recorded the masses of \(\text{10}\)
+            different loaves of bread for one week. The results, in grams, are given below:
+
+| Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
+| --- | --- | --- | --- | --- | --- | --- |
+| \(\text{802,4}\) | \(\text{787,8}\) | \(\text{815,7}\) | \(\text{807,4}\) | \(\text{801,5}\) | \(\text{786,6}\) | \(\text{799,0}\) |
+| \(\text{796,8}\) | \(\text{798,9}\) | \(\text{809,7}\) | \(\text{798,7}\) | \(\text{818,3}\) | \(\text{789,1}\) | \(\text{806,0}\) |
+| \(\text{802,5}\) | \(\text{793,6}\) | \(\text{785,4}\) | \(\text{809,3}\) | \(\text{787,7}\) | \(\text{801,5}\) | \(\text{799,4}\) |
+| \(\text{819,6}\) | \(\text{812,6}\) | \(\text{809,1}\) | \(\text{791,1}\) | \(\text{805,3}\) | \(\text{817,8}\) | \(\text{801,0}\) |
+| \(\text{801,2}\) | \(\text{795,9}\) | \(\text{795,2}\) | \(\text{820,4}\) | \(\text{806,6}\) | \(\text{819,5}\) | \(\text{796,7}\) |
+| \(\text{789,0}\) | \(\text{796,3}\) | \(\text{787,9}\) | \(\text{799,8}\) | \(\text{789,5}\) | \(\text{802,1}\) | \(\text{802,2}\) |
+| \(\text{789,0}\) | \(\text{797,7}\) | \(\text{776,7}\) | \(\text{790,7}\) | \(\text{803,2}\) | \(\text{801,2}\) | \(\text{807,3}\) |
+| \(\text{808,8}\) | \(\text{780,4}\) | \(\text{812,6}\) | \(\text{801,8}\) | \(\text{784,7}\) | \(\text{792,2}\) | \(\text{809,8}\) |
+| \(\text{802,4}\) | \(\text{790,8}\) | \(\text{792,4}\) | \(\text{789,2}\) | \(\text{815,6}\) | \(\text{799,4}\) | \(\text{791,2}\) |
+| \(\text{796,2}\) | \(\text{817,6}\) | \(\text{799,1}\) | \(\text{826,0}\) | \(\text{807,9}\) | \(\text{806,7}\) | \(\text{780,2}\) |
+
+1. Is this data set qualitative or quantitative? Explain your answer.
+2. Determine the mean, median and mode of the mass of a loaf of bread for each day of the week. Give your
+                answer correct to 1 decimal place.
+3. Based on the data, do you think that this supplier is providing bread within the South African
+                regulations?
+
+**Qualitative or quantitative?:**
+Since each mass can be represented by a number, the data set is quantitative. Furthermore, since a mass can
+            be any real number, the data are continuous.
+
+**Calculate the mean:**
+In each column (for each day of the week), we add up the measurements and divide by the number of
+            measurements, \(\text{10}\).
+
+For Monday, the sum of the measured values is \(\text{8 007,9}\) and so the mean for Monday is
+
+          \[\frac{\text{8 007,9}}{10} = \text{800,8}\text{ g}\]
+
+
+
+In the same way, we can compute the mean for each day of the week. See the table below for the results.
+
+**Calculate the median:**
+In each column we sort the numbers from lowest to highest and find the value in the middle. Since there are
+            an even number of measurements (\(\text{10}\)), the median is halfway between the two numbers in the middle.
+
+For Monday, the sorted list of numbers is
+
+          \begin{align*} \text{789,0}; \text{789,0}; \text{796,2}; \text{796,7}; \text{801,2}; \\
+          \text{802,3}; \text{802,3}; \text{802,5}; \text{808,7}; \text{819,6}
+          \end{align*}
+
+
+The two numbers in the middle are \(\text{801,2}\) and \(\text{802,3}\) and so the median is
+
+          \[\frac{\text{801,2} + \text{802,3}}{2} = \text{801,8}\text{ g}\]
+
+
+
+In the same way, we can compute the median for each day of the week:
+
+| Day | Mean | Median |
+| --- | --- | --- |
+| Monday | \(\text{800,8}\) \(\text{g}\) | \(\text{801,8}\) \(\text{g}\) |
+| Tuesday | \(\text{797,2}\) \(\text{g}\) | \(\text{796,1}\) \(\text{g}\) |
+| Wednesday | \(\text{798,4}\) \(\text{g}\) | \(\text{797,2}\) \(\text{g}\) |
+| Thursday | \(\text{803,4}\) \(\text{g}\) | \(\text{800,8}\) \(\text{g}\) |
+| Friday | \(\text{802,0}\) \(\text{g}\) | \(\text{804,3}\) \(\text{g}\) |
+| Saturday | \(\text{801,6}\) \(\text{g}\) | \(\text{801,4}\) \(\text{g}\) |
+| Sunday | \(\text{799,3}\) \(\text{g}\) | \(\text{800,2}\) \(\text{g}\) |
+
+From the above calculations we can see that the means and medians are close to one another, but not quite
+            equal. In the next worked example we will see that the mean and median are not always close to each other.
+
+**Determine the mode:**
+Since the data are continuous we cannot compute the mode. In the next section we will see how we can group
+            data in order to make it possible to compute an approximation for the mode.
+
+**Conclusion: Is the supplier reliable?:**
+From the question, the requirements are that the mass of a loaf of bread be between \(\text{800}\)
+            \(\text{g}\) minus \(\text{5}\%\), which is \(\text{760}\) \(\text{g}\), and plus \(\text{10}\%\), which is
+            \(\text{880}\) \(\text{g}\). Since every one of the measurements made by Vishnu lies within this range and
+            since the means and medians are all close to \(\text{800}\) \(\text{g}\), we can conclude that the supplier
+            is reliable.
+</Callout>
+
+<Callout type="info" title="Definition: Outlier">
+An outlier is a value in the data set that is not typical of the rest of the set. It is usually a value
+            that is much greater or much less than all the other values in the data set.
+</Callout>
+
+<Callout type="tip" title="Worked example 8: Effect of outliers on mean and median">
+**Question:**
+The heights of \(\text{10}\) learners are measured in centimetres to obtain the following data set:
+
+          \[\left\{150; 172; 153; 156; 146; 157; 157; 143; 168; 157\right\}\]
+
+
+
+Afterwards, we include one more learner in the group, who is exceptionally tall at \(\text{181}\)
+            \(\text{cm}\).
+
+Compare the mean and median of the heights of the learners before and after the eleventh learner was
+            included.
+
+**Calculate the mean of the first \(\text{10}\) learners:**
+\begin{align*}
+          \text{mean } & = \frac{150 + 172 + 153 + 156 + 146 + 157 + 157 + 143 + 168 + 157}{10} \\
+          & = \text{155,9}\text{ cm}
+          \end{align*}
+
+**Calculate the mean of all \(\text{11}\) learners:**
+\begin{align*}
+          \text{mean } & = \frac{150 + 172 + 153 + 156 + 146 + 157 + 157 + 143 + 168 + 157 + 181}{11} \\
+          & = \text{158,2}\text{ cm}
+          \end{align*}
+
+
+From this we see that the average height changes by \(\text{158,2} - \text{155,9} = \text{2,3}\text{ cm}\)
+            when we introduce the outlier value (the tall person) to the data set.
+
+**Calculate the median of the first \(\text{10}\) learners:**
+To find the median, we need to sort the data set:
+
+          \[\left\{143; 146; 150; 153; 156; 157; 157; 157; 168; 172\right\}\]
+
+
+
+Since there are an even number of values, \(\text{10}\), the median lies halfway between the fifth and
+            sixth values:
+
+          \[\text{median } = \frac{156 + 157}{2} = \text{156,5}\text{ cm}\]
+
+**Calculate the median of all \(\text{11}\) learners:**
+After adding the tall learner, the sorted data set is
+
+          \[\left\{143; 146; 150; 153; 156; 157; 157; 157; 168; 172; 181\right\}\]
+
+
+
+Now, with \(\text{11}\) values, the median is the sixth value: \(\text{157}\) \(\text{cm}\). So, the median
+            changes by only \(\text{0,5}\) \(\text{cm}\) when we add the outlier value to the data set.
+
+In general, the median is less affected by the addition of outliers to a data set than the mean is. This is
+            important because it is quite common that outliers are measured during an experiment, because of problems
+            with the equipment or unexpected interference.
+</Callout>
+
+### Textbook Exercise 10.2
+
+**Problem:**
+Calculate the mean of the following data set:
+
+\(\{9 ; 14; 9 ; 14 ; 8 ; 8 ; 9 ; 8 ; 9 ; 9\}\). Round your answer to 1 decimal place.
+
+**Solution:**
+\begin{align*}
+              \text{mean } & = \frac{9 + 14 + 9 + 14 + 8 + 8 + 9 + 8 + 9 + 9}{10} \\
+              & = \text{9,7}
+              \end{align*}
+
+
+
+The mean is: \(\text{9,7}\).
+
+**Problem:**
+Calculate the median of the following data set:
+
+\(\{4 ; 13 ; 10 ; 13 ; 13 ; 4 ; 2 ; 13 ; 13 ; 13\}\).
+
+**Solution:**
+We first need to order the data set:
+
+\(\{2 ; 4 ; 4 ; 10 ; 13 ; 13 ; 13 ; 13 ; 13 ; 13\}\).
+
+Since there are an even number of values in this data set (10) the median lies between the fifth and
+                sixth place:
+
+              \begin{align*}
+              \text{median } & = \frac{13 + 13}{2} \\
+              & = 13
+              \end{align*}
+
+
+
+The median is: 13.
+
+**Problem:**
+Calculate the mode of the following data set:
+
+\(\{6 ; 10 ; 6 ; 6 ; 13 ; 12 ; 12 ; 7 ; 13 ; 6\}\)
+
+**Solution:**
+We first sort the data set: \(\{6 ; 6 ; 6 ; 6 ; 7 ; 10 ; 12 ; 12 ; 13 ; 13\}\). The mode is the value
+                that occurs most often in the data set.
+
+Therefore the mode is: 6
+
+Calculate the mean, median and mode of the following data sets:
+
+**Problem:**
+\(\{2; 5; 8; 8; 11; 13; 22; 23; 27\}\)
+
+**Solution:**
+The data set is already ordered.
+
+                \begin{align*}
+                \text{mean } & = \frac{2 + 5 + 8 + 8 + 11 + 13 + 22 + 23 + 27}{9} \\
+                & = \text{13,2}
+                \end{align*}
+
+
+
+Since there is an odd number of values in this data set the median lies at the fifth number: 11
+
+The mode is the value that occurs the most. In this data set the mode is 8.
+
+The mean, median and mode are: mean: \(\text{13,2}\); median: \(\text{11}\); mode: \(\text{8}\).
+
+**Problem:**
+\(\{15; 17; 24; 24; 26; 28; 31; 43\}\)
+
+**Solution:**
+The data set is already ordered.
+
+                \begin{align*}
+                \text{mean } & = \frac{15 + 17 + 24 + 24 + 26 + 28 + 31 + 43}{8} \\
+                & = \text{26}
+                \end{align*}
+
+
+
+Since there is an even number of values in this data set the median lies between the fourth and fifth
+                  numbers:
+
+                \begin{align*}
+                \text{median } & = \frac{24 + 26}{2} \\
+                & = 25
+                \end{align*}
+
+
+
+The mode is the value that occurs the most. In this data set the mode is 24.
+
+The mean, median and mode are: mean: \(\text{26}\); median: \(\text{25}\); mode: \(\text{24}\).
+
+**Problem:**
+\(\{4; 11; 3; 15; 11; 13; 25; 17; 2; 11\}\)
+
+**Solution:**
+We first need to order the data set: \(\{2; 3; 4; 11; 11; 11; 13; 15; 17; 25\}\).
+
+                \begin{align*}
+                \text{mean } & = \frac{2 + 3 + 4 + 11 + 11 + 11 + 13 + 15 + 17 + 25}{10} \\
+                & = \text{11,2}
+                \end{align*}
+
+
+
+Since there is an even number of values in this data set the median lies between the fifth and sixth
+                  numbers:
+
+                \begin{align*}
+                \text{median } & = \frac{11 + 11}{2} \\
+                & = 11
+                \end{align*}
+
+
+
+The mode is the value that occurs the most. In this data set the mode is 11.
+
+Therefore the mean, median and mode are: mean: \(\text{11,2}\); median: \(\text{11}\); mode:
+                  \(\text{11}\).
+
+**Problem:**
+\(\{24; 35; 28; 41; 31; 49; 31\}\)
+
+**Solution:**
+We first need to order the data set: \(\{24 ; 28 ; 31 ; 31 ; 35 ; 41 ; 49\}\)
+
+                \begin{align*}
+                \text{mean } & = \frac{24 + 28 + 31 + 31 + 35 + 41 + 49}{7} \\
+                & = \text{34,3}
+                \end{align*}
+
+
+
+Since there is an odd number of values in this data set the median lies at the fourth number: 31
+
+The mode is the value that occurs the most. In this data set the mode is 31.
+
+The mean, median and mode are: mean: \(\text{34,29}\); median: \(\text{31}\); mode: none.
+
+**Problem:**
+The ages of \(\text{15}\) runners of the Comrades Marathon were recorded:
+
+              \[\{31; 42; 28; 38; 45; 51; 33; 29; 42; 26; 34; 56; 33; 46; 41\}\]
+
+
+
+Calculate the mean, median and modal age.
+
+**Solution:**
+We first need to order the data set: \(\{26 ; 28 ; 29 ; 31 ; 33 ; 33 ; 34 ; 38 ; 41 ; 42 ; 42 ; 45 ; 46
+                ; 51 ; 56 \}\)
+
+              \begin{align*}
+              \text{mean } & = \frac{26 + 28 + 29 + 31 + 33 + 33 + 34 + 38 + 41 + 42 + 42 + 45 + 46 + 51 + 56}{15}
+              \\
+              & = \text{38,3}
+              \end{align*}
+
+
+
+Since there is an odd number of values in this data set the median lies at the eighth number: 38.
+
+The mode is the value that occurs the most. In this data set there are two modes: 33 and 42.
+
+Therefore the mean, median and modal ages are: mean: \(\text{38,3}\); median \(\text{38}\); mode
+                \(\text{33}\) and \(\text{42}\).
+
+**Problem:**
+A group of 10 friends each have some stones. They work out that the mean number of
+                stones they have is 6. Then 7 friends leave with an unknown number (\(x\)) of stones. The remaining 3
+                friends work out that the mean number of stones they have left is \(\text{12,33}\).
+
+When the 7 friends left, how many stones did they take with them?
+
+**Solution:**
+If the mean number of stones the group originally had was 6 then the
+                total number of stones must have been:
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of stones (before)}}{\text{group size}} \\
+              \text{number of stones (before)} & = \text{mean} \times \text{group size} \\
+              \text{number of stones (before)} & = (6) \times (10) \\
+              \text{number of stones (before)} & = 60
+              \end{align*}
+
+
+
+We are then told that 7 friends leave and thereafter the mean number
+                of stones left is \(\text{12,33}\). Now we can work out the remaining number of stones.
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of stones (after)}}{\text{group size}} \\
+              \text{number of stones (after)} & = \text{mean} \times \text{group size} \\
+              \text{number of stones (after)} & = (\text{12,33}) \times (3) \\
+              \text{number of stones (after)} & = 37
+              \end{align*}
+
+
+
+Now we can calculate how many stones were taken by the 7 friends who left the group.
+
+              \begin{align*}
+              \text{number of stones removed } (x) & = \text{items before} - \text{items after} \\
+              \text{number of stones removed } (x) & = (60) - (37) \\
+              \text{number of stones removed } (x) & = 23
+              \end{align*}
+
+**Problem:**
+A group of 9 friends each have some coins. They work out that the mean number of coins
+                they have is 4. Then 5 friends leave with an unknown number (\(x\)) of coins. The remaining 4 friends
+                work out that the mean number of coins they have left is \(\text{2,5}\).
+
+When the 5 friends left, how many coins did they take with them?
+
+**Solution:**
+If the mean number of coins the group originally had was 4 then the
+                total number of coins must have been:
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of coins (before)}}{\text{group size}} \\
+              \text{number of coins (before)} & = \text{mean} \times \text{group size} \\
+              \text{number of coins (before)} & = (4) \times (9) \\
+              \text{number of coins (before)} & = 36
+              \end{align*}
+
+
+
+We are then told that 5 friends leave and thereafter the mean number
+                of coins left is \(\text{2,5}\). Let us work out the remaining number of coins.
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of coins (after)}}{\text{group size}} \\
+              \text{number of coins (after)} & = \text{mean} \times \text{group size} \\
+              \text{number of coins (after)} & = (\text{2,5}) \times (4) \\
+              \text{number of coins (after)} & = 10
+              \end{align*}
+
+
+
+Now we can calculate how many coins were taken by the 5 friends who left the group.
+
+              \begin{align*}
+              \text{number of coins removed } (x) & = \text{items before} - \text{items after} \\
+              \text{number of coins removed } (x) & = (36) - (10) \\
+              \text{number of coins removed } (x) & = 26
+              \end{align*}
+
+**Problem:**
+A group of 9 friends each have some marbles. They work out that the mean number of
+                marbles they have is 3. Then 3 friends leave with an unknown number (\(x\)) of marbles. The remaining 6
+                friends work out that the mean number of marbles they have left is \(\text{1,17}\).
+
+When the 3 friends left, how many marbles did they take with them?
+
+**Solution:**
+If the mean number of marbles the group originally had was 3 then the
+                total number of marbles must have been:
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of marbles (before)}}{\text{group size}} \\
+              \text{number of marbles (before)} & = \text{mean} \times \text{group size} \\
+              \text{number of marbles (before)} & = (3) \times (9) \\
+              \text{number of marbles (before)} & = 27
+              \end{align*}
+
+
+
+We are then told that 3 friends leave and thereafter the mean number
+                of marbles left is \(\text{1,17}\). Let us work out the remaining number of marbles.
+
+              \begin{align*}
+              \text{mean} & = \frac {\text{number of marbles (after)}}{\text{group size}} \\
+              \text{number of marbles (after)} & = \text{mean} \times \text{group size} \\
+              \text{number of marbles (after)} & = (\text{1,17}) \times (6) \\
+              \text{number of marbles (after)} & = 7
+              \end{align*}
+
+
+
+Now we can calculate how many marbles were taken by the 3 friends who left the group.
+
+              \begin{align*}
+              \text{number of marbles removed } (x) & = \text{items before} - \text{items after} \\
+              \text{number of marbles removed } (x) & = (27) - (7) \\
+              \text{number of marbles removed } (x) & = 20
+              \end{align*}
+
+In the first of a series of jars, there is \(\text{1}\) sweet. In the second jar, there are
+                \(\text{3}\) sweets. The mean number of sweets in the first two jars is \(\text{2}\).
+
+**Problem:**
+If the mean number of sweets in the first three jars is \(\text{3}\), how many sweets are there in
+                  the third jar?
+
+**Solution:**
+Let \(n_3\) be the number of sweets in the third jar:
+
+                \begin{align*}
+                \frac{1 + 3 + n_3}{3} & = 3\\
+                1 + 3 + n_3 & = 9\\
+                n_3 & = 5
+                \end{align*}
+
+**Problem:**
+If the mean number of sweets in the first four jars is \(\text{4}\), how many sweets are there in the
+                  fourth jar?
+
+**Solution:**
+Let \(n_4\) be the number of sweets in the fourth jar:
+
+                \begin{align*}
+                \frac{1 + 3 + 5 + n_4}{4} & = 4 \\
+                9 + n_4 & = 16\\
+                n_4 & = 7
+                \end{align*}
+
+**Problem:**
+Find a set of five ages for which the mean age is \(\text{5}\), the modal age is \(\text{2}\) and the
+                median age is \(\text{3}\) years.
+
+**Solution:**
+Let the five different ages be \(x_1, ~x_2, ~x_3, ~x_4\) and \(x_5\). Therefore the mean is:
+
+              \begin{align*}
+              \frac{x_1 + x_2 + x_3 + x_4 + x_5}{5} & = 5 \\
+              x_1 + x_2 + x_3 + x_4 + x_5 & = 25
+              \end{align*}
+
+
+
+The median value is at position \(\text{3}\), therefore \(x_3 = 3\).
+
+The mode is the age that occurs most often. We have 5 ages to work with and we know one of the ages is
+                3 (from the median). So the ordered data set is: \(\{x_1 ; x_2 ; 3; x_4 ; x_5\}\) (remember that we
+                always calculate mean, mode and median using the ordered data set). We are told that the mode is 2.
+                Looking at the ordered data set we see that either \(x_1\) or \(x_2\) must be 2 (\(x_4\) and \(x_5\)
+                cannot be 2 as that would make the data set unordered). However, if only one of these values is 2 then
+                the mode will not be 2. Therefore \(x_1 = x_2 = 2\).
+
+So we can now update our calculation of the mean:
+
+              \begin{align*}
+              2 + 2 + 3 + x_4 + x_5 & = 25 \\
+              18 & = x_4 + x_5
+              \end{align*}
+
+
+
+\(x_4\) and \(x_5\) can be any numbers that add up to \(\text{18}\) and are not the same (if they were
+                the same then the mode would not be 2), so \(\text{12}\) and \(\text{6}\) or \(\text{8}\) and
+                \(\text{10}\) or \(\text{3}\) and \(\text{15}\), etc.
+
+Possible data sets:
+
+              \begin{align*}
+              \text{Data set 1: } & \{2; 2; 3; 4; 14\} \\
+              \text{Data set 2: } & \{2; 2; 3; 5; 13\} \\
+              \text{Data set 3: } & \{2; 2; 3; 6; 12\} \\
+              \text{Data set 4: } & \{2; 2; 3; 7; 11\} \\
+              \text{Data set 5: } & \{2; 2; 3; 8; 10\}
+              \end{align*}
+
+
+
+Note that the set of ages must be ordered, the median value must be \(\text{3}\) and there must be
+                \(\text{2}\) ages of \(\text{2}\).
+
+**Problem:**
+Four friends each have some marbles. They work out that the mean number of marbles they have is
+                \(\text{10}\). One friend leaves with \(\text{4}\) marbles. How many marbles do the remaining friends
+                have together?
+
+**Solution:**
+Let the number of marbles per friend be \(x_1, ~x_2, ~x_3\) and \(x_4\).
+
+              \begin{align*}
+              \frac{x_1 + x_2 + x_3 + x_4}{4} & = 10\\
+              x_1 + x_2 + x_3 + x_4 & = 40
+              \end{align*}
+
+
+
+One friend leaves:
+
+              \begin{align*}
+              x_1 + x_2 + x_3 & = 40 - 4 \\
+              x_1 + x_2 + x_3 & = 36
+              \end{align*}
+
+
+
+Therefore the remaining friends have \(\text{36}\) marbles.

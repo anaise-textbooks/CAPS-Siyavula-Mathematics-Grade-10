@@ -1,0 +1,537 @@
+## 9.2 Simple interest (EMA6M)
+
+<Callout type="info" title="Definition: Simple interest">
+Simple interest is interest calculated only on the initial amount that you invested.
+</Callout>
+
+As an easy example of simple interest, consider how much we will get by investing \(\text{R}\,\text{1 000}\)
+            for \(\text{1}\) year with a bank that pays \(\text{5}\%\) p.a. simple interest.
+
+At the end of the year we have
+
+        \begin{align*}
+        \text{Interest} & = \text{R}\,\text{1 000}\times \text{5}\% \\
+        & = \text{R}\,\text{1 000}\times \frac{5}{100} \\
+        & = \text{R}\,\text{1 000} \times \text{0,05} \\
+        & = \text{R}\,\text{50}
+        \end{align*}
+
+
+With an opening balance of \(\text{R}\,\text{1 000}\) at the start of the year, the closing balance at the
+            end of the year will therefore be
+
+        \begin{align*}
+        \text{Closing balance}& = \text{Opening balance } + \text{ Interest} \\
+        & = \text{R}\,\text{1 000} + \text{R}\,\text{50} \\
+        & = \text{R}\,\text{1 050}
+        \end{align*}
+
+
+The opening balance in financial calculations is often called the principal, denoted as \(P\)
+            (\(\text{R}\,\text{1 000}\) in the example). The interest rate is usually labelled \(i\) (\(\text{5}\%\)
+            p.a. in the example and “p.a.” means per annum or per year). The interest amount is labelled
+            \(I\) (\(\text{R}\,\text{50}\) in the example).
+
+So we can see that
+
+        \[I = P \times i\]
+
+
+
+and
+
+        \begin{align*}
+        \text{Closing balance } & = \text{ Opening balance } + \text{ Interest} \\
+        & = P + I \\
+        & = P + P \times i \\ & = P\left(1 + i\right)
+        \end{align*}
+
+
+The above calculations give a good idea of what the simple interest formula looks like. However, the example
+            shows an investment that lasts for only one year. If the investment or loan is over a longer period, we need
+            to take this into account. We use the symbol \(n\) to indicate time period, which must be given in years.
+
+The general formula for calculating simple interest is
+
+\begin{align*}
+            A & = P\left(1 + in\right) \\
+            \text{Where: } & \\
+            A & = \text{ accumulated amount (final)} \\
+            P & = \text{ principal amount (initial)} \\
+            i & = \text{interest written as decimal} \\
+            n & = \text{number of years}
+            \end{align*}
+
+<Callout type="tip" title="Worked example 1: Calculating interest on a deposit">
+**Question:**
+Carine deposits \(\text{R}\,\text{1 000}\) into a special bank account which pays a simple interest
+                    rate of \(\text{7}\%\) p.a. for \(\text{3}\) years. How much will be in her account at the end of
+                    the investment term?
+
+**Write down known values:**
+\begin{align*}
+                P & = \text{1 000} \\
+                i & = \text{0,07} \\
+                n & = 3
+                \end{align*}
+
+**Write down the formula:**
+\[A = P\left(1 + in\right)\]
+
+**Substitute the values:**
+\begin{align*}
+                A & = \text{1 000}\left(1 + \text{0,07}\times 3\right) \\
+                & = \text{1 210}
+                \end{align*}
+
+**Write the final answer:**
+At the end of \(\text{3}\) years, Carine will have \(\text{R}\,\text{1 210}\) in her bank account.
+</Callout>
+
+<Callout type="tip" title="Worked example 2: Calculating interest on a loan">
+**Question:**
+Sarah borrows \(\text{R}\,\text{5 000}\) from her neighbour at an agreed simple interest rate of
+                    \(\text{12,5}\%\) p.a. She will pay back the loan in one lump sum at the end of \(\text{2}\) years.
+                    How much will she have to pay her neighbour?
+
+**Write down the known variables:**
+\begin{align*}
+                P & = \text{5 000} \\
+                i & = \text{0,125} \\
+                n & = 2
+                \end{align*}
+
+**Write down the formula:**
+\[A = P\left(1+in\right)\]
+
+**Substitute the values:**
+\begin{align*}
+                A & = \text{5 000}\left(1 + \text{0,125}\times 2\right) \\
+                & = \text{6 250}
+                \end{align*}
+
+**Write the final answer:**
+At the end of \(\text{2}\) years, Sarah will pay her neighbour \(\text{R}\,\text{6 250}\).
+</Callout>
+
+We can use the simple interest formula to find pieces of missing information. For example, if we have an
+            amount of money that we want to invest for a set amount of time to achieve a goal amount, we can rearrange
+            the variables to solve for the required interest rate. The same principles apply to finding the length of
+            time we would need to invest the money, if we knew the principal and accumulated amounts and the interest
+            rate.
+
+Important: to get a more accurate answer, try to do all your calculations on the calculator
+            in one go. This will prevent rounding off errors from influencing your final answer.
+
+<Callout type="tip" title="Worked example 3: Determining the investment period to achieve a goal amount">
+**Question:**
+Prashant deposits \(\text{R}\,\text{30 000}\) into a bank account that pays a simple interest rate of
+                    \(\text{7,5}\%\) p.a.. How many years must he invest for to generate \(\text{R}\,\text{45 000}\)?
+
+**Write down the known variables:**
+\begin{align*}
+                A & = \text{45 000} \\
+                P & = \text{30 000} \\
+                i & = \text{0,075}
+                \end{align*}
+
+**Write down the formula:**
+\[A = P\left(1 + in\right)\]
+
+**Substitute the values and solve for \(n\):**
+\begin{align*}
+                \text{45 000} & = \text{30 000}\left(1 + \text{0,075}\times n\right) \\
+                \frac{\text{45 000}}{\text{30 000}} & = 1 + \text{0,075}\times n \\
+                \frac{\text{45 000}}{\text{30 000}} - 1 & = \text{0,075}\times n \\
+                \frac{\left(\frac{\text{45 000}}{\text{30 000}}\right)-1}{\text{0,075}}& = n \\
+                n & = 6\frac{2}{3}
+                \end{align*}
+
+**Write the final answer:**
+It will take \(\text{6}\) years and \(\text{8}\) months to make \(\text{R}\,\text{45 000}\) from
+                    \(\text{R}\,\text{30 000}\) at a simple interest rate of \(\text{7,5}\%\) p.a.
+</Callout>
+
+<Callout type="tip" title="Worked example 4: Calculating the simple interest rate to achieve the desired growth">
+**Question:**
+At what simple interest rate should Fritha invest if she wants to grow \(\text{R}\,\text{2 500}\) to
+                    \(\text{R}\,\text{4 000}\) in \(\text{5}\) years?
+
+**Write down the known variables:**
+\begin{align*}
+                A & = \text{4 000} \\
+                P & = \text{2 500} \\
+                n & = 5
+                \end{align*}
+
+**Write down the formula:**
+\[A = P\left(1 + in\right)\]
+
+**Substitute the values and solve for \(i\):**
+\begin{align*}
+                \text{4 000} & = \text{2 500}\left(1 + i\times 5\right) \\
+                \frac{\text{4 000}}{\text{2 500}} & = 1 + i\times 5 \\
+                \frac{\text{4 000}}{\text{2 500}} - 1 & = i\times 5 \\
+                \frac{\left(\frac{\text{4 000}}{\text{2 500}}\right) - 1}{5}& = i \\
+                i & = \text{0,12}
+                \end{align*}
+
+**Write the final answer:**
+A simple interest rate of \(\text{12}\%\) p.a. will be needed when investing \(\text{R}\,\text{2
+                    500}\) for \(\text{5}\) years to become \(\text{R}\,\text{4 000}\).
+</Callout>
+
+### Textbook Exercise 9.1
+
+**Problem:**
+An amount of \(\text{R}\,\text{3 500}\) is invested in a savings account which pays simple
+                            interest at a rate of \(\text{7,5}\%\) per annum. Calculate the balance accumulated by the
+                            end of \(\text{2}\) years.
+
+**Solution:**
+\begin{align*}
+                        P & = \text{3 500}\\
+                        i & = \text{0,075}\\
+                        n & = 2\\
+                        A & = ?\\\\
+                        A & = P(1 + in) \\
+                        A &= \text{3 500}(1 + (\text{0,075})(2))\\
+                        A &= \text{3 500}(\text{1,15})\\
+                        A &= \text{R}\,\text{4 025}
+                        \end{align*}
+
+**Problem:**
+An amount of \(\text{R}\,\text{4 090}\) is invested in a savings account which pays simple
+                            interest at a rate of \(\text{8}\%\) per annum. Calculate the balance accumulated by the end
+                            of \(\text{4}\) years.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = ? \\
+                            P & = \text{4 090}\\
+                            n & = 4 \\
+                            i & = \frac{8}{100} = \text{0,08}
+                            \end{align*}
+
+\begin{align*}
+                            A &= P(1+in)\\
+                            &= \text{R}\,\text{4 090} \left(\text{1} + \left(\text{0,08}\right) \times
+                            \text{4}\right) \\
+                            &= \text{R}\,\text{5 398,80}
+                            \end{align*}
+
+**Problem:**
+An amount of \(\text{R}\,\text{1 250}\) is invested in a savings account which pays simple
+                            interest at a rate of \(\text{6}\%\) per annum. Calculate the balance accumulated by the end
+                            of \(\text{6}\) years.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = ? \\
+                            P & = \text{1 250}\\
+                            n & = 6 \\
+                            i & = \frac{6}{100} = \text{0,06}
+                            \end{align*}
+
+Simple interest formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            &= \text{R}\,\text{1 250} \left(\text{1} + \left(\text{0,06}\right) \times
+                            \text{6}\right) \\
+                            &= \text{R}\,\text{1 700,00}
+                            \end{align*}
+
+**Problem:**
+An amount of \(\text{R}\,\text{5 670}\) is invested in a savings account which pays simple
+                            interest at a rate of \(\text{8}\%\) per annum. Calculate the balance accumulated by the end
+                            of \(\text{3}\) years.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = ? \\
+                            P & = \text{5 670}\\
+                            n & = 3 \\
+                            i & = \frac{8}{100} = \text{0,08}
+                            \end{align*}
+
+Simple interest formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            &= \text{R}\,\text{5 670,00} \left(\text{1} + \left(\text{0,08}\right) \times
+                            \text{3}\right) \\
+                            &= \text{R}\,\text{7 030,80}
+                            \end{align*}
+
+Calculate the accumulated amount in the following situations:
+
+**Problem:**
+A loan of \(\text{R}\,\text{300}\) at a rate of \(\text{8}\%\) for \(\text{1}\) year.
+
+**Solution:**
+\begin{align*}
+                            P & = 300 \\
+                            i & = \text{0,08} \\
+                            n & = 1 \\
+                            A & = ? \\ \\
+                            A & = P(1 + in) \\
+                            A & = 300(1+ (\text{0,08})(1))\\
+                            A & = 300(\text{1,08})\\
+                            A & = \text{R}\,\text{324}
+                            \end{align*}
+
+**Problem:**
+An investment of \(\text{R}\,\text{2 250}\) at a rate of \(\text{12,5}\%\) p.a. for
+                                \(\text{6}\) years.
+
+**Solution:**
+\begin{align*}
+                            P & = \text{2 250} \\
+                            i & = \text{0,125} \\
+                            n & = 6 \\
+                            A & = ? \\ \\
+                            A & = P(1 + in) \\
+                            A & = \text{2 250}(1+ (\text{0,125})(6))\\
+                            A & = \text{2 250}(\text{1,75})\\
+                            A & = \text{R}\,\text{3 937,50}
+                            \end{align*}
+
+**Problem:**
+A bank offers a savings account which pays simple interest at a rate of \(\text{6}\%\) per
+                            annum. If you want to accumulate \(\text{R}\,\text{15 000}\) in \(\text{5}\) years, how much
+                            should you invest now?
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{15 000} \\
+                            P & = ? \\
+                            i & = \frac{6}{100} = \text{0,06} \\
+                            n & = 5
+                            \end{align*}
+
+Simple interest formula:
+                            \begin{align*}
+                            A &= P(1 + in)\\
+                            \text{R}\,\text{15 000} &= P \left(\text{1} + \left(\text{0,06}\right) \times
+                            \text{5}\right) \\
+                            P & = \frac{\text{R}\,\text{15 000}}{\text{1,3}} \\
+                            &= \text{R}\,\text{11 538,46}
+                            \end{align*}
+
+**Problem:**
+Sally wanted to calculate the number of years she needed to invest \(\text{R}\,\text{1 000}\)
+                            for in order to accumulate \(\text{R}\,\text{2 500}\). She has been offered a simple
+                            interest rate of \(\text{8,2}\%\) p.a. How many years will it take for the money to grow to
+                            \(\text{R}\,\text{2 500}\)?
+
+**Solution:**
+\begin{align*}
+                        A & = \text{2 500} \\
+                        P & = \text{1 000} \\
+                        i & = \text{0,082} \\
+                        n & = ? \\ \\
+                        A & = P(1 + in) \\
+                        \text{2 500} &= \text{1 000}(1+ (\text{0,082})(n))\\
+                        \frac{\text{2 500}}{\text{1 000}} &= 1 + \text{0,082}n\\
+                        \frac{\text{2 500}}{\text{1 000}} - 1 &= \text{0,082}n \\
+                        \left(\frac{\text{2 500}}{\text{1 000}} - 1\right) \div \text{0,082} & = n\\
+                        n & = \text{18,3}
+                        \end{align*}
+
+
+
+It would take \(\text{19}\) years for \(\text{R}\,\text{1 000}\) to become
+                            \(\text{R}\,\text{2 500}\) at \(\text{8,2}\%\) p.a.
+
+**Problem:**
+Joseph deposited \(\text{R}\,\text{5 000}\) into a savings account on his son's fifth
+                            birthday. When his son turned \(\text{21}\), the balance in the account had grown to
+                            \(\text{R}\,\text{18 000}\). If simple interest was used, calculate the rate at which the
+                            money was invested.
+
+**Solution:**
+\begin{align*}
+                        A & = \text{18 000} \\
+                        P & = \text{5 000} \\
+                        i & = ? \\
+                        n & = 21 - 5 = 16 \\ \\
+                        A & = P(1 + in) \\
+                        \text{18 000} = \text{5 000}(1+ (i)(16)) \\
+                        \frac{\text{18 000}}{\text{5 000}} & = 1 + 16i\\
+                        \frac{\text{18 000}}{\text{5 000}} - 1 & = 16i \\
+                        \left(\frac{\text{18 000}}{\text{5 000}} - 1\right) \div 16 & = i\\
+                        i & = \text{0,1625}
+                        \end{align*}
+
+
+
+The interest rate at which the money was invested was \(\text{16,25}\%\).
+
+**Problem:**
+When his son was \(\text{6}\)
+                            years old, Methuli made a deposit of
+                            \(\text{R}\,\text{6 610}\)
+                            in the bank. The investment grew at a simple interest rate and
+                            when Methuli's son was
+                            \(\text{18}\) years old, the value
+                            of the investment was
+                            \(\text{R}\,\text{11 131,24}\).
+
+At what rate was the money invested? Give the answer correct to one decimal place.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{11 131,24} \\
+                            P & = \text{R}\,\text{6 610} \\
+                            i & = ? \\
+                            n & = 18 - 6 = 12
+                            \end{align*}
+
+The question says that the investment “grew at a simple interest rate”, so we
+                            must use the simple interest formula. To calculate the interest rate, we need to make \(i\)
+                            the
+                            subject of the formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            \frac{A}{P} &= 1+in\\
+                            \frac{A}{P}-1 &= in\\
+                            \frac{\frac{A}{P}-1}{n} &= i\\
+                            \text{Therefore } i &= \frac{\left(\frac{\text{}\,
+                            \text{11 131,24}}{\text{6 610}}\right) - 1}{\text{12}}\\
+                            & = \text{0,057}\\
+                            & = \text{5,7}\% \text{ per annum}
+                            \end{align*}
+
+**Problem:**
+When his son was \(\text{6}\)
+                            years old, Phillip made a deposit of
+                            \(\text{R}\,\text{5 040}\)
+                            in the bank. The investment grew at a simple interest rate and
+                            when Phillip's son was
+                            \(\text{18}\) years old, the value
+                            of the investment was
+                            \(\text{R}\,\text{7 338,24}\).
+
+At what rate was the money invested? Give your answer correct to one decimal place.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{7 338,24} \\
+                            P & = \text{R}\,\text{5 040} \\
+                            i & = ? \\
+                            n & = 18 - 6 = 12
+                            \end{align*}
+
+The question says that the investment “grew at a simple interest rate”, so we
+                            must use the simple interest formula. To calculate the interest rate, we need to make \(i\)
+                            the
+                            subject of the formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            \frac{A}{P} &= 1+in\\
+                            \frac{A}{P}-1 &= in\\
+                            \frac{\frac{A}{P}-1}{n} &= i\\
+                            \text{Therefore } i &= \frac{\left(\frac{\text{}\,
+                            \text{7 338,24}}{\text{5 040}}\right) - 1}{\text{12}}\\
+                            & = \text{0,038}\\
+                            & = \text{3,8}\% \text{ per annum}
+                            \end{align*}
+
+**Problem:**
+When his son was \(\text{10}\)
+                            years old, Lefu made a deposit of
+                            \(\text{R}\,\text{2 580}\)
+                            in the bank. The investment grew at a simple interest rate and
+                            when Lefu's son was
+                            \(\text{20}\) years old, the value
+                            of the investment was
+                            \(\text{R}\,\text{3 689,40}\).
+
+At what rate was the money invested? Give your answer correct to one decimal place.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{3 689,40} \\
+                            P & = \text{R}\,\text{2 580} \\
+                            i & = ? \\
+                            n & = 20 - 10 = 10
+                            \end{align*}
+
+The question says that the investment “grew at a simple interest rate”, so we
+                            must use the simple interest formula. To calculate the interest rate, we need to make \(i\)
+                            the
+                            subject of the formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            \frac{A}{P} &= 1+in\\
+                            \frac{A}{P}-1 &= in\\
+                            \frac{\frac{A}{P}-1}{n} &= i\\
+                            \text{Therefore } i &= \frac{\left(\frac{\text{}\,
+                            \text{3 689,40}}{\text{2 580}}\right) - 1}{\text{10}}\\
+                            & = \text{0,043}\\
+                            & = \text{4,3}\% \text{ per annum}
+                            \end{align*}
+
+**Problem:**
+Abdoul wants to invest \(\text{R}\,\text{1 080}\) at a simple interest rate of
+                            \(\text{10,9}\%\) p.a.
+
+How many years will it take for the money to grow to \(\text{R}\,\text{3 348}\)? Round
+                            up your answer to the nearest year.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{3 348} \\
+                            P & = \text{R}\,\text{1 080} \\
+                            i & = \frac{\text{10,9}}{100} = \text{0,109} \\
+                            n & = ?
+                            \end{align*}
+
+To calculate the number of years, we need to make \(n\) the subject of the formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            \frac{A}{P}&= 1+in\\
+                            \frac{A}{P}-1 & = in\\
+                            \frac{\frac{A}{P}-1}{i} & = n\\
+                            \text{Therefore } n & = \frac{\left(\frac{\text{3 348}}{\text{1 080}}\right) -
+                            \text{1}}{\text{0,109}} \\
+                            & = \text{19,3}\\
+                            & = \text{20} \text{ years} \quad \Leftarrow \text{round UP to the nearest integer}
+                            \end{align*}
+
+**Problem:**
+Andrew wants to invest \(\text{R}\,\text{3 010}\) at a simple interest rate of
+                            \(\text{11,9}\%\) p.a.
+
+How many years will it take for the money to grow to \(\text{R}\,\text{14 448}\)? Round
+                            up your answer to the nearest year.
+
+**Solution:**
+Read the question carefully and write down the given information:
+                            \begin{align*}
+                            A & = \text{R}\,\text{14 448} \\
+                            P & = \text{R}\,\text{3 010} \\
+                            i & = \frac{\text{11,9}}{100} = \text{0,119} \\
+                            n & = ?
+                            \end{align*}
+
+To calculate the number of years, we need to make \(n\) the subject of the formula:
+                            \begin{align*}
+                            A &= P(1+in)\\
+                            \frac{A}{P}&= 1+in\\
+                            \frac{A}{P}-1 & = in\\
+                            \frac{\frac{A}{P}-1}{i} & = n\\
+                            \text{Therefore } n & = \frac{\left(\frac{\text{14 448}}{\text{3 010}}\right)
+                            - \text{1}}{\text{0,119}} \\
+                            & = \text{31,9}\\
+                            & = \text{32} \text{ years} \quad \Leftarrow \text{round UP to the nearest integer}
+                            \end{align*}
+                            Rounding up to the nearest year, it will take \(\text{32}\) years to reach the goal of
+                            saving \(\text{R}\,\text{14 448}\).
