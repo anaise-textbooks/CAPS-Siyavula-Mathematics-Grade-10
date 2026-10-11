@@ -32,7 +32,7 @@
           "id": "sec-01-03-01-algebraic-expressions-02",
           "title": "1.3 Rational and irrational numbers",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-02.mdx",
-          "estimatedMinutes": 19
+          "estimatedMinutes": 22
         },
         {
           "id": "sec-01-04-01-algebraic-expressions-03",
@@ -44,25 +44,25 @@
           "id": "sec-01-05-01-algebraic-expressions-04",
           "title": "1.5 Estimating surds",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-04.mdx",
-          "estimatedMinutes": 6
+          "estimatedMinutes": 7
         },
         {
           "id": "sec-01-06-01-algebraic-expressions-05",
           "title": "1.6 Products",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-05.mdx",
-          "estimatedMinutes": 21
+          "estimatedMinutes": 23
         },
         {
           "id": "sec-01-07-01-algebraic-expressions-06",
           "title": "1.7 Factorisation",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-06.mdx",
-          "estimatedMinutes": 32
+          "estimatedMinutes": 38
         },
         {
           "id": "sec-01-08-01-algebraic-expressions-07",
           "title": "1.8 Simplification of fractions",
           "path": "chapters/01-algebraic-expressions/01-algebraic-expressions-07.mdx",
-          "estimatedMinutes": 23
+          "estimatedMinutes": 27
         },
         {
           "id": "sec-01-09-01-algebraic-expressions-08",
@@ -92,7 +92,7 @@
           "id": "sec-02-02-02-exponents-01",
           "title": "2.2 Revision of exponent laws",
           "path": "chapters/02-exponents/02-exponents-01.mdx",
-          "estimatedMinutes": 11
+          "estimatedMinutes": 16
         },
         {
           "id": "sec-02-03-02-exponents-02",
@@ -104,7 +104,7 @@
           "id": "sec-02-04-02-exponents-03",
           "title": "2.4 Exponential equations",
           "path": "chapters/02-exponents/02-exponents-03.mdx",
-          "estimatedMinutes": 14
+          "estimatedMinutes": 16
         },
         {
           "id": "sec-02-05-02-exponents-04",
@@ -128,13 +128,13 @@
           "id": "sec-03-01-03-number-patterns-00",
           "title": "3.1 Introduction",
           "path": "chapters/03-number-patterns/03-number-patterns-00.mdx",
-          "estimatedMinutes": 5
+          "estimatedMinutes": 7
         },
         {
           "id": "sec-03-02-03-number-patterns-01",
           "title": "3.2 Describing sequences",
           "path": "chapters/03-number-patterns/03-number-patterns-01.mdx",
-          "estimatedMinutes": 39
+          "estimatedMinutes": 54
         },
         {
           "id": "sec-03-03-03-number-patterns-02",
@@ -164,37 +164,37 @@
           "id": "sec-04-02-04-equations-and-inequalities-01",
           "title": "4.2 Solving linear equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-01.mdx",
-          "estimatedMinutes": 14
+          "estimatedMinutes": 21
         },
         {
           "id": "sec-04-03-04-equations-and-inequalities-02",
           "title": "4.3 Solving quadratic equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-02.mdx",
-          "estimatedMinutes": 21
+          "estimatedMinutes": 24
         },
         {
           "id": "sec-04-04-04-equations-and-inequalities-03",
           "title": "4.4 Solving simultaneous equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-03.mdx",
-          "estimatedMinutes": 28
+          "estimatedMinutes": 30
         },
         {
           "id": "sec-04-05-04-equations-and-inequalities-04",
           "title": "4.5 Word problems",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-04.mdx",
-          "estimatedMinutes": 27
+          "estimatedMinutes": 28
         },
         {
           "id": "sec-04-06-04-equations-and-inequalities-05",
           "title": "4.6 Literal equations",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-05.mdx",
-          "estimatedMinutes": 10
+          "estimatedMinutes": 15
         },
         {
           "id": "sec-04-07-04-equations-and-inequalities-06",
           "title": "4.7 Solving linear inequalities",
           "path": "chapters/04-equations-and-inequalities/04-equations-and-inequalities-06.mdx",
-          "estimatedMinutes": 16
+          "estimatedMinutes": 22
         },
         {
           "id": "sec-04-08-04-equations-and-inequalities-07",
@@ -260,7 +260,7 @@
           "id": "sec-05-08-05-trigonometry-part-1-07",
           "title": "5.8 Defining ratios in the Cartesian plane",
           "path": "chapters/05-trigonometry-part-1/05-trigonometry-part-1-07.mdx",
-          "estimatedMinutes": 24
+          "estimatedMinutes": 27
         },
         {
           "id": "sec-05-09-05-trigonometry-part-1-08",
@@ -314,7 +314,7 @@
           "id": "sec-06-06-06-functions-05",
           "title": "6.6 Trigonometric functions",
           "path": "chapters/06-functions/06-functions-05.mdx",
-          "estimatedMinutes": 36
+          "estimatedMinutes": 40
         },
         {
           "id": "sec-06-07-06-functions-06",
@@ -326,7 +326,7 @@
           "id": "sec-06-08-06-functions-07",
           "title": "6.8 Chapter summary",
           "path": "chapters/06-functions/06-functions-07.mdx",
-          "estimatedMinutes": 6
+          "estimatedMinutes": 12
         },
         {
           "id": "sec-06-09-06-functions-08",
@@ -350,19 +350,19 @@
           "id": "sec-07-02-07-euclidean-geometry-part-1-01",
           "title": "7.2 Triangles",
           "path": "chapters/07-euclidean-geometry-part-1/07-euclidean-geometry-part-1-01.mdx",
-          "estimatedMinutes": 17
+          "estimatedMinutes": 22
         },
         {
           "id": "sec-07-03-07-euclidean-geometry-part-1-02",
           "title": "7.3 Quadrilaterals",
           "path": "chapters/07-euclidean-geometry-part-1/07-euclidean-geometry-part-1-02.mdx",
-          "estimatedMinutes": 23
+          "estimatedMinutes": 26
         },
         {
           "id": "sec-07-04-07-euclidean-geometry-part-1-03",
           "title": "7.4 The mid-point theorem",
           "path": "chapters/07-euclidean-geometry-part-1/07-euclidean-geometry-part-1-03.mdx",
-          "estimatedMinutes": 16
+          "estimatedMinutes": 17
         },
         {
           "id": "sec-07-05-07-euclidean-geometry-part-1-04",
@@ -392,25 +392,25 @@
           "id": "sec-08-02-08-analytical-geometry-01",
           "title": "8.2 Distance between two points",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-01.mdx",
-          "estimatedMinutes": 12
+          "estimatedMinutes": 14
         },
         {
           "id": "sec-08-03-08-analytical-geometry-02",
           "title": "8.3 Gradient of a line",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-02.mdx",
-          "estimatedMinutes": 37
+          "estimatedMinutes": 45
         },
         {
           "id": "sec-08-04-08-analytical-geometry-03",
           "title": "8.4 Mid-point of a line",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-03.mdx",
-          "estimatedMinutes": 11
+          "estimatedMinutes": 13
         },
         {
           "id": "sec-08-05-08-analytical-geometry-04",
           "title": "8.5 Chapter summary",
           "path": "chapters/08-analytical-geometry/08-analytical-geometry-04.mdx",
-          "estimatedMinutes": 6
+          "estimatedMinutes": 24
         },
         {
           "id": "sec-08-06-08-analytical-geometry-05",
@@ -434,19 +434,19 @@
           "id": "sec-09-02-09-finance-and-growth-01",
           "title": "9.2 Simple interest",
           "path": "chapters/09-finance-and-growth/09-finance-and-growth-01.mdx",
-          "estimatedMinutes": 18
+          "estimatedMinutes": 25
         },
         {
           "id": "sec-09-03-09-finance-and-growth-02",
           "title": "9.3 Compound interest",
           "path": "chapters/09-finance-and-growth/09-finance-and-growth-02.mdx",
-          "estimatedMinutes": 14
+          "estimatedMinutes": 18
         },
         {
           "id": "sec-09-04-09-finance-and-growth-03",
           "title": "9.4 Calculations using simple and compound interest",
           "path": "chapters/09-finance-and-growth/09-finance-and-growth-03.mdx",
-          "estimatedMinutes": 27
+          "estimatedMinutes": 36
         },
         {
           "id": "sec-09-05-09-finance-and-growth-04",
@@ -476,13 +476,13 @@
           "id": "sec-10-01-10-statistics-00",
           "title": "10.1 Collecting data",
           "path": "chapters/10-statistics/10-statistics-00.mdx",
-          "estimatedMinutes": 9
+          "estimatedMinutes": 10
         },
         {
           "id": "sec-10-02-10-statistics-01",
           "title": "10.2 Measures of central tendency",
           "path": "chapters/10-statistics/10-statistics-01.mdx",
-          "estimatedMinutes": 29
+          "estimatedMinutes": 33
         },
         {
           "id": "sec-10-03-10-statistics-02",
@@ -494,13 +494,13 @@
           "id": "sec-10-04-10-statistics-03",
           "title": "10.4 Measures of dispersion",
           "path": "chapters/10-statistics/10-statistics-03.mdx",
-          "estimatedMinutes": 23
+          "estimatedMinutes": 25
         },
         {
           "id": "sec-10-05-10-statistics-04",
           "title": "10.5 Five number summary",
           "path": "chapters/10-statistics/10-statistics-04.mdx",
-          "estimatedMinutes": 7
+          "estimatedMinutes": 8
         },
         {
           "id": "sec-10-06-10-statistics-05",
@@ -524,7 +524,7 @@
           "id": "sec-11-01-11-trigonometry-part-2-00",
           "title": "11.1 Two-dimensional problems",
           "path": "chapters/11-trigonometry-part-2/11-trigonometry-part-2-00.mdx",
-          "estimatedMinutes": 17
+          "estimatedMinutes": 23
         },
         {
           "id": "sec-11-02-11-trigonometry-part-2-01",
@@ -578,13 +578,13 @@
           "id": "sec-13-02-13-measurement-01",
           "title": "13.2 Right prisms and cylinders",
           "path": "chapters/13-measurement/13-measurement-01.mdx",
-          "estimatedMinutes": 18
+          "estimatedMinutes": 28
         },
         {
           "id": "sec-13-03-13-measurement-02",
           "title": "13.3 Right pyramids, right cones and spheres",
           "path": "chapters/13-measurement/13-measurement-02.mdx",
-          "estimatedMinutes": 25
+          "estimatedMinutes": 41
         },
         {
           "id": "sec-13-04-13-measurement-03",
@@ -614,19 +614,19 @@
           "id": "sec-14-01-14-probability-00",
           "title": "14.1 Theoretical probability",
           "path": "chapters/14-probability/14-probability-00.mdx",
-          "estimatedMinutes": 14
+          "estimatedMinutes": 15
         },
         {
           "id": "sec-14-02-14-probability-01",
           "title": "14.2 Relative frequency",
           "path": "chapters/14-probability/14-probability-01.mdx",
-          "estimatedMinutes": 11
+          "estimatedMinutes": 13
         },
         {
           "id": "sec-14-03-14-probability-02",
           "title": "14.3 Venn diagrams",
           "path": "chapters/14-probability/14-probability-02.mdx",
-          "estimatedMinutes": 8
+          "estimatedMinutes": 9
         },
         {
           "id": "sec-14-04-14-probability-03",
@@ -638,7 +638,7 @@
           "id": "sec-14-05-14-probability-04",
           "title": "14.5 Probability identities",
           "path": "chapters/14-probability/14-probability-04.mdx",
-          "estimatedMinutes": 6
+          "estimatedMinutes": 8
         },
         {
           "id": "sec-14-06-14-probability-05",
@@ -650,7 +650,7 @@
           "id": "sec-14-07-14-probability-06",
           "title": "14.7 Complementary events",
           "path": "chapters/14-probability/14-probability-06.mdx",
-          "estimatedMinutes": 7
+          "estimatedMinutes": 9
         },
         {
           "id": "sec-14-08-14-probability-07",

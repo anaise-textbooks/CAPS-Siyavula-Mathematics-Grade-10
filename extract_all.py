@@ -56,7 +56,50 @@ def fetch_interactive_embed(opener, section_url, exercise_id, retries=2):
             if attempt == retries - 1:
                 return None
             time.sleep(1.0)
-    return None
+def fetch_solution_and_answer(opener, section_url, exercise_id, template_id=1):
+    # Probe submit-answer to reveal the verified answer and step-by-step solution
+    submit_url = 'https://www.siyavula.com/api/interactive-textbook/v1/submit-answer'
+    path = '/' + '/'.join(section_url.split('/')[3:])
+    payload = json.dumps({
+        'current_path': path,
+        'section_exercise_id': exercise_id,
+        'activity_template_id': template_id,
+        'response_id': None,
+        'response_index': 0,
+        'duration': 5,
+        'response_hash': None,
+        'repeat_attempt': False,
+        'user_responses': {'question1a': 'probe_val'}
+    }).encode('utf-8')
+
+    headers = {
+        'User-Agent': USER_AGENT,
+        'Content-Type': 'application/json',
+        'Referer': section_url,
+        'Accept': 'application/json, text/plain, */*'
+    }
+
+    try:
+        req = urllib.request.Request(submit_url, data=payload, headers=headers)
+        with opener.open(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            template = data.get('data', {}).get('activity_template', {})
+            resp_info = template.get('responses', {}).get('1', {})
+            correct_ans_list = resp_info.get('correct_responses', [])
+            correct_ans = correct_ans_list[0] if correct_ans_list else ''
+
+            body_html = template.get('question', {}).get('body', '')
+            sol_text = ''
+            if body_html:
+                soup = BeautifulSoup(body_html, 'html.parser')
+                sol_body = soup.find(class_='response-solution__body')
+                if sol_body:
+                    # Clean solution body text
+                    sol_text = sol_body.get_text(' ', strip=True)
+
+            return correct_ans, sol_text
+    except Exception:
+        return '', ''
 
 def download_image(img_url, local_path, retries=3):
     if os.path.exists(local_path):
@@ -130,10 +173,28 @@ class MDXConverter:
                                     if val and txt and txt.lower() != 'select':
                                         options.append(txt)
 
+                            # extract hint from how-to-write
+                            htw = q_soup.find(class_='how-to-write__body')
+                            hint_text = htw.get_text(' ', strip=True) if htw else ''
+
+                            # fetch verified answer & full solution
+                            tmpl_id = tmpl.get('id', 1)
+                            ans_str, sol_str = fetch_solution_and_answer(self.opener, self.base_url, ex_id, tmpl_id)
+
+                            # If answer is an index into options (e.g. '1' for multiple choice), map it to option text
+                            if options and ans_str.isdigit():
+                                idx_ans = int(ans_str)
+                                if idx_ans < len(options):
+                                    ans_str = options[idx_ans]
+
                             # Clean escaped strings
                             clean_q = prob_text.replace('"', '\\"').replace('\n', ' ')
+                            clean_hint = hint_text.replace('"', '\\"').replace('\n', ' ')
+                            clean_sol = sol_str.replace('"', '\\"').replace('\n', ' ')
+                            clean_ans = ans_str.replace('"', '\\"')
+
                             opts_json = json.dumps(options)
-                            card_tag = f'<QuizCard id="{ex_id}" title="{title}" question="{clean_q}" options={opts_json} explanation="Refer to the section rules and worked examples to verify." />'
+                            card_tag = f'<QuizCard id="{ex_id}" title="{title}" question="{clean_q}" options={opts_json} answer="{clean_ans}" hint="{clean_hint}" explanation="{clean_sol}" />'
                             out_cards.append(card_tag)
 
                     if out_cards:
